@@ -1,0 +1,26 @@
+.combobox {
+	&__item {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.v-input {
+		&__icon {
+			margin-right: -5px;
+
+			.v-icon {
+				font-size: 38px;
+				color: $sablo;
+			}
+
+		}
+
+	}
+
+	fieldset {
+		border: 1px solid rgba(45, 62, 79, 0.25) !important;
+		border-radius: 8px !important;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+	}
+
+}

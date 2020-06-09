@@ -1,0 +1,35 @@
+.card-payment {
+	max-width: 400px;
+	min-height: 600px;
+
+	&__subtitle {
+		font-size: 18px;
+		color: rgba(0, 0, 0, 0.5);
+	}
+
+	&__header {
+		border-bottom: 1px solid rgba(45, 62, 79, 0.25);
+	}
+
+	&__action {
+		max-width: 320px;
+		width: 100%;
+		border-radius: 5px;
+		background-color: $domiel !important;
+		border: none;
+		box-shadow: none;
+
+		.v-btn__content {
+			font-size: 24px;
+			text-transform: initial;
+			font-weight: normal;
+		}
+
+	}
+
+	&__copyright {
+		font-size: 14px;
+		color: $domiel;
+	}
+
+}
